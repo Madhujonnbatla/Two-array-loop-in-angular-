@@ -1,0 +1,15 @@
+<table  class="table table-bordered mb-0 mt-2">
+                <thead>
+                 
+                </thead>
+          <tbody>
+            
+              <tr *ngFor="let row of rows">
+               <td *ngFor="let col of columns">
+                 {{row[col]}}
+                
+               </td>
+               
+              </tr>
+                </tbody>
+              </table>
